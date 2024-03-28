@@ -1,6 +1,6 @@
 require_relative 'spec_helper'
-require_relative '../lib/ruby-handlebars/parser'
-require_relative '../lib/ruby-handlebars/tree'
+require_relative '../lib/handlebars-rb/parser'
+require_relative '../lib/handlebars-rb/tree'
 
 
 describe Handlebars::Transform do

@@ -1,6 +1,6 @@
 require_relative 'spec_helper'
-require_relative '../lib/ruby-handlebars'
-require_relative '../lib/ruby-handlebars/escapers/dummy_escaper'
+require_relative '../lib/handlebars-rb'
+require_relative '../lib/handlebars-rb/escapers/dummy_escaper'
 
 
 describe Handlebars::Handlebars do
@@ -71,7 +71,7 @@ describe Handlebars::Handlebars do
         hbs.register_partial('brackets', "[{{name}}]")
         expect(evaluate("Hello {{> brackets}}", {name: 'world'})).to eq("Hello [world]")
       end
-      
+
       it 'with a string argument' do
         hbs.register_partial('with_args', "[{{name}}]")
         expect(evaluate("Hello {{> with_args name='jon'}}")).to eq("Hello [jon]")

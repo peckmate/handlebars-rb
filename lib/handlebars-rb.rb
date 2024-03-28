@@ -1,9 +1,9 @@
-require_relative 'ruby-handlebars/parser'
-require_relative 'ruby-handlebars/tree'
-require_relative 'ruby-handlebars/template'
-require_relative 'ruby-handlebars/helper'
-require_relative 'ruby-handlebars/helpers/register_default_helpers'
-require_relative 'ruby-handlebars/escapers/html_escaper'
+require_relative 'handlebars-rb/parser'
+require_relative 'handlebars-rb/tree'
+require_relative 'handlebars-rb/template'
+require_relative 'handlebars-rb/helper'
+require_relative 'handlebars-rb/helpers/register_default_helpers'
+require_relative 'handlebars-rb/escapers/html_escaper'
 
 module Handlebars
   class Handlebars

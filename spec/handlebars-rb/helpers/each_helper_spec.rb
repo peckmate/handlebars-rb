@@ -1,9 +1,9 @@
 require_relative '../../spec_helper'
 require_relative './shared'
 
-require_relative '../../../lib/ruby-handlebars'
-require_relative '../../../lib/ruby-handlebars/tree'
-require_relative '../../../lib/ruby-handlebars/helpers/each_helper'
+require_relative '../../../lib/handlebars-rb'
+require_relative '../../../lib/handlebars-rb/tree'
+require_relative '../../../lib/handlebars-rb/helpers/each_helper'
 
 
 describe Handlebars::Helpers::EachHelper do
