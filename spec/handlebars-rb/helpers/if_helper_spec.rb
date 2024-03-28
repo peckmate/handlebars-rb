@@ -1,8 +1,8 @@
 require_relative '../../spec_helper'
 require_relative './shared'
 
-require_relative '../../../lib/ruby-handlebars'
-require_relative '../../../lib/ruby-handlebars/helpers/if_helper'
+require_relative '../../../lib/handlebars-rb'
+require_relative '../../../lib/handlebars-rb/helpers/if_helper'
 
 
 describe Handlebars::Helpers::IfHelper do
