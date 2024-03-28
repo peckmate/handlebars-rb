@@ -1,11 +1,6 @@
 ruby-handlebars
 ===============
-
-[![Build status](https://github.com/SmartBear/ruby-handlebars/actions/workflows/ci.yml/badge.svg)](https://github.com/SmartBear/ruby-handlebars/actions/workflows/ci.yml)
-[![Maintainability](https://api.codeclimate.com/v1/badges/22dbe81de487cb27097c/maintainability)](https://codeclimate.com/github/SmartBear/ruby-handlebars/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/22dbe81de487cb27097c/test_coverage)](https://codeclimate.com/github/SmartBear/ruby-handlebars/test_coverage)
-
-Pure Ruby library for [Handlebars](http://handlebarsjs.com/) template system.
+Pure Ruby library for [Handlebars](http://handlebarsjs.com/) template system. A fork of [ruby-handlebars](https://github.com/SmartBear/ruby-handlebars)
 The main goal of this library is to simplify the use of Ruby and Handlebars on Windows machine. If you do not have any need of working on Windows, take a look at [handlebars.rb](https://github.com/cowboyd/handlebars.rb) that uses the real Handlebars library.
 
 Installing
@@ -14,7 +9,7 @@ Installing
 Simply run:
 
 ```shell
-gem install ruby-handlebars
+gem install handlebars-rb
 ```
 
 No need for libv8, ruby-racer or any JS related tool.
@@ -26,7 +21,7 @@ A very simple case:
 
 ```ruby
 
-require 'ruby-handlebars'
+require 'handlebars-rb'
 
 hbs = Handlebars::Handlebars.new
 hbs.compile("Hello {{name}}").call({name: 'world'})

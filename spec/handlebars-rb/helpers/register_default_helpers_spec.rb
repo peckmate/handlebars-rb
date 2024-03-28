@@ -1,7 +1,7 @@
 require_relative '../../spec_helper'
 
-require_relative '../../../lib/ruby-handlebars'
-require_relative '../../../lib/ruby-handlebars/helpers/register_default_helpers'
+require_relative '../../../lib/handlebars-rb'
+require_relative '../../../lib/handlebars-rb/helpers/register_default_helpers'
 
 
 describe Handlebars::Helpers do
